@@ -22,3 +22,6 @@ while anyoneAlive:
     anyoneAlive = not warrior2.Attack(warrior1)
     nowHp = warrior1.GetHp()
     print(name1 + " нанес удар в размере " + str(prHp - nowHp))
+
+    print(warrior1.GetHp(), warrior2.GetHp())
+    input()
