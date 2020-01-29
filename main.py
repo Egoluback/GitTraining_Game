@@ -1,6 +1,6 @@
-from warrior.py import Warrior
-from Weapon.py import Weapon
-from Shield.py import Shield
+from warrior import Warrior
+from Weapon import Weapon
+from Shield import Shield
 
 import random
 
