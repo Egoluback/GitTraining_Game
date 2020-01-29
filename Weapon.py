@@ -7,10 +7,8 @@ class Weapon():
 		self.dices = dices
 		self.edges = edges
 
-
 	def getname(self):
 		return self.name
-
 
 	def GetDamage(self):
 		res = 0
