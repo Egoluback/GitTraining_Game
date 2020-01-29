@@ -1,6 +1,6 @@
 import random
 
-class Shield():
+class Shield:
 	def __init__(self, name, chance, defrange):
 		self.name = name
 		self.chance = chance
