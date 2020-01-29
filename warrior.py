@@ -16,7 +16,7 @@ class Warrior:
         damage = self.weapon.GetDamage()
         damage -= enemy.shield.GetDefense()
         if damage < 0: damage = 0
-        has_killed = not enemy.ChangeHp(damage)
+        has_killed = not enemy.ChangeHp(-damage)
         return has_killed
 
     def GetHp(self):
