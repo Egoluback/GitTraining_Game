@@ -1,5 +1,5 @@
 class Warrior:
-    def __init__(self, name: str, hp: int, weapon: Weapon, shield: Shield):
+    def __init__(self, name: str, hp: int, weapon, shield):
         self.name = name
         self.hp = hp
         self.weapon = weapon
@@ -12,7 +12,7 @@ class Warrior:
             self.IsAlive = False
         return self.IsAlive
 
-    def Attack(self, enemy: Warrior):
+    def Attack(self, enemy):
         damage = self.weapon.GetDamage()
         damage -= enemy.shield.GetDefense()
         if damage < 0: damage = 0
