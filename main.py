@@ -1,5 +1,5 @@
 from warrior.py import Warrior
-from weapon.py import Weapon
+from Weapon.py import Weapon
 from Shield.py import Shield
 
 import random
