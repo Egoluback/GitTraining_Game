@@ -7,8 +7,8 @@ import random
 name1 = "The best of the best"
 name2 = "Superhero"
 
-warrior1 = Warrior(name1, 100, Weapon("hero's weapon", 10, 10), Shield("hero's shield", 70, (10, 40)))
-warrior2 = Warrior(name2, 100, Weapon("superhero's weapon", 10, 10), Shield("superhero's shield", 70, (10, 40)))
+warrior1 = Warrior(name1, 100, Weapon("hero's weapon", 2, 6), Shield("hero's shield", 70, (10, 20)))
+warrior2 = Warrior(name2, 100, Weapon("superhero's weapon", 2, 6), Shield("superhero's shield", 70, (10, 20)))
 
 anyoneAlive = True
 
